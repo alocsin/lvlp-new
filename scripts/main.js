@@ -6,8 +6,8 @@ $('.filters-list a').on('click', function() {
   $('.all-projects').addClass('hidden')
   $(filter).removeClass('hidden')
 
-  $('.all-projects').fadeOut(1000)
-  $(filter).delay(1000).fadeIn(1000)
+  $('.all-projects').fadeOut(800)
+  $(filter).delay(800).fadeIn(800)
 
   // this will add a class name of selected to the current filter link that we clicked on
   $('.filters-list a').removeClass('selected')
